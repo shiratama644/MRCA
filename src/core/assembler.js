@@ -8,7 +8,6 @@ import { MACRO_OPS } from "./macros"; // マクロ実装をインポート
 
 // --- Helper Functions ---
 const parseNum = (str, labelMap) => {
-  // ... (変更なし)
   str = str.trim();
   if (labelMap && labelMap.has(str)) return labelMap.get(str);
 
